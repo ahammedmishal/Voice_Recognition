@@ -3,7 +3,7 @@ import Movie from './Pages/Movie';
 import Home from './Pages/Home';
 import News from './Pages/News';
 
-import {BrowserRouter as Router ,Route,Link} from 'react-router-dom';
+import {HashRouter as Router ,Switch,Route,Link} from 'react-router-dom';
 
 
 
@@ -13,17 +13,18 @@ function App() {
   return (
     <div className="App">
       <Router>
-      
+          <Switch>
           <Route exact path ="/">
               <Home/>
           </Route>
 
-          <Route  path ="/movie">
+          <Route path ="/movie"  exact component={Movie}>
               <Movie/>
           </Route>
-          <Route  path ="/news">
+          <Route  path ="/news" exact component={News}>
               <News/>
           </Route>
+          </Switch>
         
       </Router>
     </div>

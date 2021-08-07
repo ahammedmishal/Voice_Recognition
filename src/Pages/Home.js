@@ -151,7 +151,7 @@ function Home() {
                             <h1 style={{color:"white"}}>Jarvis News Reader</h1>
                             <p>reads about latest news
                             </p>
-                            <a  href="/news">Click Here</a >
+                            <Link to="/news">Click Here </Link >
                         </div>
                     </div>
                     <div className="card"
@@ -165,7 +165,7 @@ function Home() {
                             <h1 style={{color:"white"}}>Jarvis Movie Reader</h1>
                             <p>reads about latest Movies details
                             </p>
-                            <a href="/movie">Click Here</a >
+                            <Link to="/movie">Click Here</Link >
                         </div>
                     </div>
                     </div>

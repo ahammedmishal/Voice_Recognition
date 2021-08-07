@@ -6,6 +6,7 @@ import Movie from './Pages/Movie';
 import reportWebVitals from './reportWebVitals';
 
 
+
 ReactDOM.render(
     <React.StrictMode>
       <App/>
