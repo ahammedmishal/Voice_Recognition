@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Voice_Recognition/static/css/main.8805ddb3.chunk.css",
+    "main.js": "/Voice_Recognition/static/js/main.fb18754c.chunk.js",
+    "main.js.map": "/Voice_Recognition/static/js/main.fb18754c.chunk.js.map",
+    "runtime-main.js": "/Voice_Recognition/static/js/runtime-main.e21ad20d.js",
+    "runtime-main.js.map": "/Voice_Recognition/static/js/runtime-main.e21ad20d.js.map",
+    "static/js/2.399816f3.chunk.js": "/Voice_Recognition/static/js/2.399816f3.chunk.js",
+    "static/js/2.399816f3.chunk.js.map": "/Voice_Recognition/static/js/2.399816f3.chunk.js.map",
+    "static/js/3.37dd02d9.chunk.js": "/Voice_Recognition/static/js/3.37dd02d9.chunk.js",
+    "static/js/3.37dd02d9.chunk.js.map": "/Voice_Recognition/static/js/3.37dd02d9.chunk.js.map",
+    "index.html": "/Voice_Recognition/index.html",
+    "static/css/main.8805ddb3.chunk.css.map": "/Voice_Recognition/static/css/main.8805ddb3.chunk.css.map",
+    "static/js/2.399816f3.chunk.js.LICENSE.txt": "/Voice_Recognition/static/js/2.399816f3.chunk.js.LICENSE.txt",
+    "static/media/face1.1f55db88.gif": "/Voice_Recognition/static/media/face1.1f55db88.gif",
+    "static/media/robot.6e958e52.jpg": "/Voice_Recognition/static/media/robot.6e958e52.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e21ad20d.js",
+    "static/js/2.399816f3.chunk.js",
+    "static/css/main.8805ddb3.chunk.css",
+    "static/js/main.fb18754c.chunk.js"
+  ]
+}
