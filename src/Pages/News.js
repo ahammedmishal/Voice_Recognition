@@ -190,11 +190,7 @@ const News = () => {
       <Modal isOpen={isOpen} setIsOpen={setIsOpen} />
       {!newsArticles.length ? (
         <div className={classes.footer}>
-          <Typography variant="body1" component="h2">
-            Created by
-            <a className={classes.link} href=""> MVJ</a> -
-            <a className={classes.link} href="">   Mishal ,jafish, Vineeth </a>
-          </Typography>
+
           {/* <img className={classes.image} src={logo} height="50px" alt="JSMastery logo" /> */}
         </div>
       ) : null}
