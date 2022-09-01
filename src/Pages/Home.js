@@ -11,14 +11,11 @@ import useStyles from '../styles.js';
 
 function Home() {
     
-
-  
-
     return(
         <div className="body">
 
         <div>
-        <img className="image" src={robogif} alt="Face" alt="logo"/>
+        <img className="image" src={robogif} alt="Face"/>
         </div>
         <div>  
                     <Particles className="particles"
@@ -44,11 +41,6 @@ function Home() {
                                 polygon: {
                                     nb_sides: 5
                                 },
-                                image: {
-                                    src: "https://cdn.freebiesupply.com/logos/large/2x/slack-logo-icon.png",
-                                    width: 100,
-                                    height: 100
-                                }
                             },
                             opacity: {
                                 value: 1,

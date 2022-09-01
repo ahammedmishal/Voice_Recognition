@@ -65,7 +65,7 @@ const News = () => {
                                 }
                             },
                             color: {
-                                value: ["red", "#FF0000"]
+                              value: ["red", "black"]
                             },
                             shape: {
                                 type: ["circle"],
@@ -76,11 +76,6 @@ const News = () => {
                                 polygon: {
                                     nb_sides: 5
                                 },
-                                image: {
-                                    src: "https://cdn.freebiesupply.com/logos/large/2x/slack-logo-icon.png",
-                                    width: 100,
-                                    height: 100
-                                }
                             },
                             opacity: {
                                 value: 1,
@@ -171,19 +166,17 @@ const News = () => {
      <div>
        
      </div>
-        { document.body.style.backgroundColor = 'black' }
+       
 
       <div className={classes.logoContainer}>
         
         {newsArticles.length ? (
           <div className={classes.infoContainer}>
-            
-            
             <div className={classes.card}><Typography variant="h5" component="h2">Try saying: <br /><br />Open article number [4]</Typography></div>
             <div className={classes.card}><Typography variant="h5" component="h2">Try saying: <br /><br />Go back</Typography></div>
           </div>
         ) : null}
-        <img className={classes.image} src={robogif} alt="Face" className={classes.alanLogo} alt="logo"/>
+        <img src={robogif} alt="Face" className={classes.alanLogo}/>
         
       </div>
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />

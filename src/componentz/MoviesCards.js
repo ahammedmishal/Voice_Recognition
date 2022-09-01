@@ -15,11 +15,11 @@ const MoviesCards = ({list,activeMovies}) => {
             <div className={classes.main}> 
                 <Tilt className={classes.tilt} options={{ max : 25 }} style={{ height: 450, width: 400}} >
                 <div className={classes.Inner}>
-                    <h1 className={classes.title}>JARVIS-MOVIE</h1>
-                    <h2>Try a Command:</h2>
-                    <h3>"What are the best movies today?"</h3>
-                    <h1>or</h1>
-                    <h3>"What are the top movies now?"</h3>
+                    <h1 className={classes.h1}>JARVIS-MOVIE</h1>
+                    <h2 className={classes.h2}>Try a Command:</h2>
+                    <h3 className={classes.h2}>"What are the best movies today?"</h3>
+                    <h1 className={classes.h1}>or</h1>
+                    <h3 className={classes.h2}>"What are the top movies now?"</h3>
                     
                 </div>
              </Tilt>

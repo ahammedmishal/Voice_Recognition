@@ -4,8 +4,6 @@ import alanBtn from '@alan-ai/alan-sdk-web';
 import Moviescard from '../componentz/MoviesCards';
 import Particles from 'react-particles-js';
 
-
-
 const alanKey = '3a100825aeeee71f6f35825e0befbed72e956eca572e1d8b807a3e2338fdd0dc/stage';
 function Movie () {
 	const [movies,setMovies] = useState ([]);
@@ -24,8 +22,6 @@ function Movie () {
 			}
 		})
 	}, [])
-
-
 
 	return (
 		<div>
@@ -143,8 +139,6 @@ function Movie () {
 		  }}
 	  />
 		<div className="main">
-	
-			
 			<Moviescard list={movies} activeMovies={activeMovies}/>
 		</div>
 		</div>

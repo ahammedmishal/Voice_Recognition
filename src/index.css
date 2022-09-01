@@ -4,7 +4,10 @@
 
 body{
   margin:0;
-  background-color: #000;
+  background-image: url(./Assets/back2.d744cdeb.jpg);
+  background-size: cover;
+  justify-content: center;
+  font-family: "Raleway",sans-serif;
 }
 
 *{

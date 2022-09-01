@@ -10,7 +10,7 @@ export default makeStyles({
     height: '50vh',
     padding: '10%',
     borderRadius: 10,
-    backgroundImage: 'linear-gradient(89deg,#000000, #00f)',
+
     color: 'white',
     boxShadow:"20px 20px 50px rgb(0, 0, 0,0.5)",
     borderRadius: '10px',
@@ -20,10 +20,14 @@ export default makeStyles({
 
   },
   infoCard: {
-    display: 'flex', flexDirection: 'column', textAlign: 'center',
+    display: 'flex',
+    flexDirection: 'column',
+    textAlign: 'center',
   },
   container: {
-    padding: '0 5%', width: '100%', margin: 0,backgroundColor:"black",
+    padding: '0 5%',
+    width: '100%',
+    margin: 0,
   },
 });
 
